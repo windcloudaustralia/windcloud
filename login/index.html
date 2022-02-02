@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/ico" href="/imgs/favicon.ico"/>
+        <link rel="shortcut icon" type="image/ico" href="/imgs/favicon.ico" />
 
     </head>
 
@@ -32,100 +32,16 @@
         </nav>
         </header>
 
-
         <br>
-        <form id="form">
-            <label>
-                Username:
-                <input type="text" id="username" />
-            </label>
-            <label>
-                Password:
-                <input type="password" id="password" />
-            </label>
-
-            <button id="submit">Login</button>
-        </form>
-
-        <script>
-            let
-                attempts = 3,
-                logins = new Map([
-                    ['newport1', 'Shds&^dbC0(8>,<[]?'],
-                    ['admin', 'admin'],
-                    ['newport2', 'KLJHdnS^dsdhjkASdkj']
-                ]);
-            formElement = document.getElementById('form');
-
-            function disableForm() {
-                const
-                    usernameInput = document.getElementById('username'),
-                    passwordInput = document.getElementById('password'),
-                    submitButton = document.getElementById('submit');
-
-                usernameInput.setAttribute('disabled', 'disabled');
-                passwordInput.setAttribute('disabled', 'disabled');
-                submitButton.setAttribute('disabled', 'disabled');
-            }
-
-            function decreaseAttemptsLeft() {
-                // Decrease attempts by 1.
-                attempts--;
-
-                // Check if attempts is 0...
-                if (attempts === 0) {
-                    // ... and disable the form controls.
-                    disableForm();
-                    // ... and show the user a message.
-                    alert('You have failed  to log in 3 times, Fields have been turned off. Please try again later');
-                } else {
-                    // Show a message with login attempts left.
-                    const
-                        message = `You have ${attempts} attempt(s) left.`;
-                    alert(message);
-                }
-            }
-
-            function onFormSubmit(event) {
-                // prevent the actual form submission.
-                event.preventDefault();
-
-                const
-                    usernameInput = document.getElementById('username'),
-                    passwordInput = document.getElementById('password');
-
-                if (
-                    // When the logins map doesn't have a key for the username OR
-                    !logins.has(usernameInput.value) ||
-                    // The password doesn't match the value for the user name
-                    logins.get(usernameInput.value) !== passwordInput.value
-                ) {
-                    // Decrease the number of attempts left.
-                    decreaseAttemptsLeft();
-                    // Exit the method.
-                    return;
-                }
-
-                // Show the success message.
-                alert('Login success!');
-                location.href = 'members/';
-                // Reset the attempts counter.
-                attempts = 3;
-            }
-
-            form.addEventListener('submit', onFormSubmit);
-        </script>
-
-        
         <br>
         <br>
 
         <footer>
             <span>&#169;<span> WindCloud Australia 2021-2022 <br> Reach out to us! //
 
-            <a href="mailto:hello@windcloud.com.au">hello@windcloud.com.au</a> <br>
+                    <a href="mailto:hello@windcloud.com.au">hello@windcloud.com.au</a> <br>
 
-            <p>Version: Beta: 2022.1.2</p>
+                    <p>Version: Beta: 2022.1.2</p>
 
         </footer>
     </body>
