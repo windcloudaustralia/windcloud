@@ -1,1 +1,2 @@
-User-agent: Bingbot
+Sitemap: https://windcloud.com.au/sitemap.xml
+
