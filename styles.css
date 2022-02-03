@@ -1,5 +1,11 @@
 * {
     box-sizing: border-box;
+    align-items: center;
+    align-self: center;
+    align-tracks: center;
+    text-align: center;
+    text-align-last: center;
+    scroll-snap-align: center;
 }
 
 .parallax {
