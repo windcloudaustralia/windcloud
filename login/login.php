@@ -3,6 +3,7 @@
 require once "config.php";
 require once "session.php";
 
+session_start();
 $error = '';
 if ($_SERVER["REQUEST METHOD"] == "POST" && isset($_ POST['submit')) {
 
