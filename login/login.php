@@ -1,6 +1,6 @@
 <?php
-require once "config. php";
-require once "session. php";
+require once "config.php";
+require once "session.php";
 
 $error = '';
 if ($_SERVER["REQUEST METHOD"] == "POST" && isset($_ POST['submit')) {
