@@ -41,6 +41,56 @@
 
 
 
+<?php
+require once "config.php";
+require once "session.php";
+
+$error = '';
+if ($_SERVER["REQUEST METHOD"] == "POST" && isset($_ POST['submit')) {
+
+    $email = trim($_POST['email']);
+    $password = trim($_POST['password']);
+
+    // validate if email field is empty
+    if (empty($email)) {
+        $error .= '<p class="error">Please enter your email address.</p>';
+    }
+
+    // validate if password field is empty
+    if (empty($password)) {
+        $error .= '<p class="error">Please enter your password.</p>';
+    }
+
+    if (empty($error)) {
+        if($query = $db->prepare("SELECT * FROM users WHERE email = ?")) {
+            $query->bind_param('s', $email);
+            $query->execute();
+            $row = $query->fetch();
+            if ($row) {
+                if (password_verify($password, $row['password'])) {
+                    $_SESSION["userid" = $row['id'];
+                    $_SESSION["user"] = $row;
+
+                    // Redirect to the welcome page
+                    header("location: welcome.php");
+                    exit;
+                } else {
+                    $error .= '<p class="error">The password you entered is not valid</p>';
+                }
+            } else {
+                $error .= '<p class="error">No user exists with that email address</p>';
+            }
+        } 
+        $query->close();
+    }
+    // Close connection 
+    mysqli_close($db);
+    
+
+
+}
+
+?>
 
 
 
