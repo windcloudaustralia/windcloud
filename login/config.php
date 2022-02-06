@@ -5,7 +5,7 @@ define('DBPASSWORD', 'xxxxxxxx'); // Database password
 define('DBNAME', 'xxxxxxxx_user_accounts'); // Database name
 
 /* connect to MySQL database */
-$db = mysqli_connect(DBSERVER, DBUSERNAME, DBPASSWORD, DBNAME);
+$db = mysql_connect(DBSERVER, DBUSERNAME, DBPASSWORD, DBNAME);
 
 // Check connection
 if ($db === false) {
