@@ -19,12 +19,13 @@ if (!isset($_SESSION['loggedin'])) {
 	</head>
 
     <style>
-        body {
+        .styless {
             background-color: rgb(32, 30, 30);
             font-family: 'Dosis', sans-serif;
         }
         </style>
 	<body class="loggedin">
+        <div class="styless">
 		<nav class="navtop">
 			<div>
 				<h1>Wind Cloud</h1>
@@ -36,5 +37,6 @@ if (!isset($_SESSION['loggedin'])) {
 			<h2>Home Page</h2>
 			<p>Welcome back, <?=$_SESSION['name']?>!</p>
 		</div>
+    </div>
 	</body>
 </html>
