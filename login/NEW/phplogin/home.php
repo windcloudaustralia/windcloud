@@ -72,7 +72,7 @@ body {
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(255, 255, 255);
     color: #ffffff;
 }
 .login form input[type="password"], .login form input[type="text"] {
