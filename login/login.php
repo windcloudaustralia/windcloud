@@ -35,6 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     exit;
                 } else {
                     $error .= '<p class="error">The password you entered is not valid</p>';
+                    header("location: welcome.php");
                 }
             } else {
                 $error .= '<p class="error">No user exists with that email address</p>';
