@@ -5,7 +5,7 @@ require_once "session.php";
 
 
 $error = '';
-if ($_SERVER["REQUEST METHOD"] == "POST" && isset($_ POST['submit')) {
+if ($_SERVER["REQUEST METHOD"] == "POST" && isset($_POST['submit'))) {
 
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST METHOD"] == "POST" && isset($_ POST['submit')) {
             $row = $query->fetch();
             if ($row) {
                 if (password_verify($password, $row['password'])) {
-                    $_SESSION["userid" = $row['id'];
+                    $_SESSION["userid"] = $row['id'];
                     $_SESSION["user"] = $row;
 
                     // Redirect to the welcome page
