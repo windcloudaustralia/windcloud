@@ -135,7 +135,7 @@ body {
 	color: #eaebed;
 }
 body.loggedin {
-	background-color: rgb(32, 30, 30);
+	background-color: rgb(255, 255, 255);
 }
 .content {
 	width: 1000px;
