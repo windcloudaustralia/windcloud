@@ -17,6 +17,13 @@ if (!isset($_SESSION['loggedin'])) {
         <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 
 	</head>
+
+    <style>
+        body {
+            background-color: rgb(32, 30, 30);
+            font-family: 'Dosis', sans-serif;
+        }
+        </style>
 	<body class="loggedin">
 		<nav class="navtop">
 			<div>
