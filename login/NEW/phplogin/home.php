@@ -160,7 +160,7 @@ body.loggedin {
 }
 .content > p table td:first-child, .content > div table td:first-child {
 	font-weight: bold;
-	color: #4a536e;
+	color: rgb(32, 30, 30);
 	padding-right: 15px;
 }
 .content > div p {
