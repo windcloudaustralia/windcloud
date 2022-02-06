@@ -153,8 +153,8 @@ body.loggedin {
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 	margin: 25px 0;
 	padding: 25px;
-	color: rgb(32, 30, 30);
-    background-color: rgb(32, 30, 30);
+	color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 .content > p table td, .content > div table td {
 	padding: 5px;
