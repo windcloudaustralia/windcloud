@@ -1,7 +1,7 @@
 <?php
 define('DBSERVER', 'localhost'); // Database server
 define('DBUSERNAME', 'u210039736_admin'); // Database username
-define('DBPASSWORD', 'WindCloudAusPTYLTD_MySQL_auth01!$'); // Database password
+define('DBPASSWORD', 'Password123!'); // Database password
 define('DBNAME', 'user_accounts'); // Database name
 
 /* connect to MySQL database */
