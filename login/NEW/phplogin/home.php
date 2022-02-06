@@ -55,7 +55,7 @@ body {
 }
 .login h1 {
     text-align: center;
-    color: #5b6574;
+    color: #fff;
     font-size: 24px;
     padding: 20px 0 20px 0;
     border-bottom: 1px solid #dee0e4;
