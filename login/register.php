@@ -15,8 +15,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         $error = '';
         // Bind parameters (s = string, i = int, b = blob, etc), in our case the username is a string so we use "s"
     
-    $query->blind_result('s', $email);
-    $query->execute();
+        $query->blind_param('s', $email);
+        $query->execute();
     // Store the result so we can check if the account exists in the database.
     $query->store_result();
     if ($query->num_rows > 0) {
