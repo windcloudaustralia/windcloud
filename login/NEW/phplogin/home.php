@@ -18,12 +18,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 	</head>
 
-    <style>
-        .styless {
-            background-color: rgb(32, 30, 30);
-            font-family: 'Dosis', sans-serif;
-        }
-        </style>
+    
 	<body class="loggedin">
         <div class="styless">
 		<nav class="navtop">
