@@ -17,10 +17,8 @@ if (!isset($_SESSION['loggedin'])) {
         <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 
 	</head>
-
     
 	<body class="loggedin">
-        <div class="styless">
 		<nav class="navtop">
 			<div>
 				<h1>Wind Cloud</h1>
@@ -32,6 +30,5 @@ if (!isset($_SESSION['loggedin'])) {
 			<h2>Home Page</h2>
 			<p>Welcome back, <?=$_SESSION['name']?>!</p>
 		</div>
-    </div>
 	</body>
 </html>
