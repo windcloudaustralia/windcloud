@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    padding: 0px;
+    font-size: 30px;
+}
+
+.homehtml {
+    padding: 0px;
+    font-size: 30px;
+
+    text-decoration-style: dashed;
+    text-decoration: white;
+}
+
+
+.homehtml:hover {
+    text-decoration: underline;
+    font-style: oblique;
+    font-size: 35px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+html {
+    background-color: rgb(32, 30, 30);
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+    ] font-family: sans;
+}
+
+h2 {
+
+    font-size: 80px;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+nav>ul>li:hover {
+    background-color: rgb(23, 23, 23);
+}
+
+nav>ul>li>ul {
+    background-color: rgb(23, 23, 23);
+    padding: 0;
+    display: none;
+    position: absolute;
+}
+
+nav>ul>li>ul>li:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+a {
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+.embed1 {
+    width: 90%;
+    height: 150%;
+    position: absolute;
+    margin-left: 1px;
+    position: relative;
+    min-height: 670px;
+}
