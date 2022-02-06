@@ -1,6 +1,6 @@
 <?php
 define('DBSERVER', 'localhost'); // Database server
-define('DBUSERNAME', 'xxxxxxxx_admin'); // Database username
+define('DBUSERNAME', 'admin'); // Database username
 define('DBPASSWORD', 'xxxxxxxx'); // Database password
 define('DBNAME', 'users'); // Database name
 
