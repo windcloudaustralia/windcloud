@@ -25,7 +25,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 * {
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-family: 'Dosis', sans-serif, -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -33,6 +33,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 html {
     font-family: 'Dosis', sans-serif;
+    background-color: rgb(32, 30, 30);
 }
 body {
     background-color: rgb(32, 30, 30);
