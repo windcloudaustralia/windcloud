@@ -135,12 +135,12 @@ body {
 	color: #eaebed;
 }
 body.loggedin {
-	background-color: #f3f4f7;
+	background-color: rgb(32, 30, 30);
 }
 .content {
 	width: 1000px;
 	margin: 0 auto;
-    background-color: rgb(32, 30, 30); 
+    
 }
 .content h2 {
 	margin: 0;
