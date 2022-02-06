@@ -140,6 +140,7 @@ body.loggedin {
 .content {
 	width: 1000px;
 	margin: 0 auto;
+    background-color: rgb(32, 30, 30); 
 }
 .content h2 {
 	margin: 0;
