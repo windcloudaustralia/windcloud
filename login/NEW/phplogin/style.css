@@ -5,14 +5,27 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-body {
-    background-color: #435165;
+
+html {
+    font-family: 'Dosis', sans-serif;
 }
+body {
+    background-color: rgb(32, 30, 30);
+    font-family: 'Dosis', sans-serif;
+}
+
+.accountissues {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
 .login {
     width: 400px;
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
     margin: 100px auto;
+    border-radius: 15px;
 }
 .login h1 {
     text-align: center;
@@ -33,7 +46,7 @@ body {
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: #3274d6;
+    background-color: rgb(32, 30, 30);
     color: #ffffff;
 }
 .login form input[type="password"], .login form input[type="text"] {
