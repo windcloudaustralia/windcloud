@@ -60,6 +60,8 @@ $stmt->close();
 					</tr>
 				</table>
 			</div>
+
+			<p>Return to home</p><a href="/index.html"><i class="fas fa-home"></i></a>
 		</div>
 	</body>
 </html>
