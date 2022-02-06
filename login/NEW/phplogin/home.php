@@ -153,14 +153,15 @@ body.loggedin {
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 	margin: 25px 0;
 	padding: 25px;
-	background-color: #fff;
+	color: rgb(32, 30, 30);
+    background-color: rgb(32, 30, 30);
 }
 .content > p table td, .content > div table td {
 	padding: 5px;
 }
 .content > p table td:first-child, .content > div table td:first-child {
 	font-weight: bold;
-	color: rgb(32, 30, 30);
+	color: #4a536e;
 	padding-right: 15px;
 }
 .content > div p {
