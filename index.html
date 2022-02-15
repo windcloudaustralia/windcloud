@@ -27,6 +27,42 @@
     <meta property="twitter:title" content="Wind Cloud">
     <meta property="twitter:description" content="Welcome to Wind Cloud. We aim to provide hyper-local and accurate weather information, using our ever-expanding network of sensors. Visit the different pages on this website to view data at your desired location.">
     <meta property="twitter:image" content="https://windcloud.com.au/imgs/banner.png">
+
+
+
+    <script>
+        //some default pre init
+        var PB = PB || {};PB.q = PB.q || [];PB.events = PB.events || [];
+        
+        //PushBots ApplicationId (required)
+        PB.app_id = "620c3bcfd4bd6d289f229d25";
+        //Your domain name, must be HTTPS or localhost  (required)
+        PB.domain = "https://windcloud.com.au";
+        //Update and uncomment it if you are using custom safari certificate for your app
+        PB.safari_push_id = "web.com.pushbots.safaripush";
+        //****************************************
+        
+        PB.logging_enabled = true;
+        PB.auto_subscribe = true;
+        
+        //Custom worker and manifest URL
+        //PB.worker_url = PB.domain + "/pushbots-worker.js";
+        
+        //Welcome notification message
+        PB.welcome = {title:"Welcome ",message:"Thanks for subscribing!", url :PB.domain};
+        
+        function sendNotification(){
+              PB.register();
+              PB.q.push(["sendNotification", {title:"Hey ",message:"Why not?", url :"https://windcloud.com.au"}]);
+        }
+        
+        </script>
+        
+        <script src="//cdn.pushbots.com/js/sdk.min.js" type="text/javascript" onload="PB.init()" async></script>
+
+
+
+
 </head>
 <div style="background-color: #000000; height:50px; border:thin solid #ffffff">
     </ul>
