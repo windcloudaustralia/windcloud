@@ -33,10 +33,10 @@ if (!isset($_SESSION['loggedin'])) {
 
 html {
     font-family: 'Dosis', sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: #201e1e);
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #201e1e;
     font-family: 'Dosis', sans-serif;
 }
 
