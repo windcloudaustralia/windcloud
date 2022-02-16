@@ -135,7 +135,7 @@ body {
 	color: #eaebed;
 }
 body.loggedin {
-	background-color: rgb(255, 255, 255);
+	background-color: #201e1e;
 }
 .content {
 	width: 1000px;
@@ -155,7 +155,7 @@ body.loggedin {
 	margin: 25px 0;
 	padding: 25px;
 	color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: #201e1e;
 }
 .content > p table td, .content > div table td {
 	padding: 5px;
