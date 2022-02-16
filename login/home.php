@@ -55,10 +55,10 @@ body {
 }
 .login h1 {
     text-align: center;
-    color: #fff;
+    color: #201e1e;
     font-size: 24px;
     padding: 20px 0 20px 0;
-    border-bottom: 1px solid #dee0e4;
+    border-bottom: 1px solid #ffffff;
 }
 .login form {
     display: flex;
