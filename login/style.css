@@ -8,11 +8,10 @@
 
 html {
     font-family: 'Dosis', sans-serif;
-    background-color: #201e1e;
 }
 
 body {
-    background-color: #201e1e;
+    background-color: rgb(32, 30, 30);
     font-family: 'Dosis', sans-serif;
 }
 
@@ -30,7 +29,7 @@ i {
 
 .login {
     width: 400px;
-    background-color: #201e1e;
+    background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
     margin: 100px auto;
     border-radius: 15px;
@@ -57,8 +56,8 @@ i {
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: #201e1e;
-    color: #201e1e;
+    background-color: rgb(32, 30, 30);
+    color: #ffffff;
 }
 
 .login form input[type="password"], .login form input[type="text"] {
@@ -87,7 +86,7 @@ i {
 }
 
 .navtop {
-    background-color: #000000;
+    background-color: #2f3947;
     height: 60px;
     width: 100%;
     border: 0;
@@ -130,7 +129,7 @@ i {
 }
 
 body.loggedin {
-    background-color: #201e1e;
+    background-color: #f3f4f7;
 }
 
 .content {
