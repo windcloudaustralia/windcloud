@@ -33,7 +33,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 html {
     font-family: 'Dosis', sans-serif;
-    background-color: #201e1e);
+    background-color: #201e1e;
 }
 body {
     background-color: #201e1e;
