@@ -99,7 +99,7 @@ body {
 }
 
 .navtop {
-	background-color: #2f3947;
+	background-color: #000000;
 	height: 60px;
 	width: 100%;
 	border: 0;
