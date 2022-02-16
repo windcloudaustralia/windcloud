@@ -148,7 +148,7 @@ body.loggedin {
 	padding: 25px 0;
 	font-size: 22px;
 	border-bottom: 1px solid #e0e0e3;
-	color: #4a536e;
+	color: #ffffff;
 }
 .content > p, .content > div {
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
