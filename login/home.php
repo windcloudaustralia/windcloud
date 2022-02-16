@@ -139,6 +139,7 @@ body.loggedin {
 }
 .content {
 	width: 1000px;
+	background-color: #201e1e;
 	margin: 0 auto;
     
 }
