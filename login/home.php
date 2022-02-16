@@ -151,7 +151,7 @@ body.loggedin {
 	color: #ffffff;
 }
 .content > p, .content > div {
-	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px 0 rgba(250, 250, 250, 0.1);
 	margin: 25px 0;
 	padding: 25px;
 	color: #ffffff;
