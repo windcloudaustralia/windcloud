@@ -44,13 +44,7 @@ $stmt->close();
 
 
 
-		<script>
-			$('.passwordreveal').hover(function () {
-			$('.passwordofUSR').attr('type', 'text'); 
-			}, function () {
-			$('.passwordofUSR').attr('type', 'password'); 
-			});
-		</script>
+		
 		<div class="content">
 			<h2>Profile aPage</h2>
 			<div>
@@ -61,10 +55,7 @@ $stmt->close();
 						<td><?=$_SESSION['name']?></td>
 					</tr>
 					<tr>
-					<div class="passwordofUSR">
-						<td>Password:</td>
-						<td><?=$password?></td>
-						<div class="passwordreveal">reveal</div>
+					
 					</tr>
 					
 					</div>
@@ -73,6 +64,24 @@ $stmt->close();
 						<td><?=$email?></td>
 					</tr>
 				</table>
+
+				<div class="passwordofUSR">
+						<td>Password:</td>
+						<td><?=$password?></td>
+						<div class="passwordreveal">reveal</div>
+						
+				<script>
+					function mouseoverPass(obj) {
+					var obj = document.getElementById('passwordofUSR');
+					obj.type = "text";
+					}
+					function mouseoutPass(obj) {
+					var obj = document.getElementById('passwordofUSR');
+					obj.type = "password";
+}
+				</script>
+
+
 				<p>Return to home</p><a href="/"><i class="fas fa-home"></i></a>
 			</div>
 
