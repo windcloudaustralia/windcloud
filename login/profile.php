@@ -60,16 +60,6 @@ $stmt->close();
 					</tr>
 				</table>
 				<p>Return to home</p><a href="/"><i class="fas fa-home"></i></a>
-				<p class="hoverShow1"><?=$password?></p>
-			<style>
-				.hoverShow1 {
-				display: none; 
-				cursor: pointer;
-				}
-				.hoverShow1:hover {
-				display: block; 
-				}
-			</style>
 			</div>
 			
 			
