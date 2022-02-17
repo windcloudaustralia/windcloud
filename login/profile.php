@@ -64,6 +64,7 @@ $stmt->close();
 			<style>
 				.hoverShow1 {
 				display: none; 
+				cursor: pointer;
 				}
 				.hoverShow1:hover {
 				display: block; 
