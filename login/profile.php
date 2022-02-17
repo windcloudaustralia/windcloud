@@ -41,7 +41,7 @@ $stmt->close();
 				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 			</div>
 		</nav>
-		<div class="content">
+		<div type="password" class="content">
 			<h2>Profile Page</h2>
 			<div>
 				<p>Your account details are below:</p>
@@ -51,7 +51,7 @@ $stmt->close();
 						<td><?=$_SESSION['name']?></td>
 					</tr>
 					<tr>
-						<td type="password">Password:</td>
+						<td>Password:</td>
 						<td><?=$password?></td>
 					</tr>
 					<tr>
