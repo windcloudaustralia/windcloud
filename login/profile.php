@@ -64,8 +64,9 @@ $stmt->close();
 					<div class="passwordofUSR">
 						<td>Password:</td>
 						<td><?=$password?></td>
+						<div class="passwordreveal">reveal</div>
 					</tr>
-					<div class="passwordreveal">reveal</div>
+					
 					</div>
 					<tr>
 						<td>Email:</td>
