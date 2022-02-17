@@ -66,8 +66,8 @@ $stmt->close();
 				</table>
 
 				<div class="passwordofUSR">
-						<div>Password: /></div>
-						<div><?=$password?> /></div>
+						<div>Password:</div>
+						<div><?=$password?></div>
 						<div class="passwordreveal">reveal</div>
 				</div>
 						
