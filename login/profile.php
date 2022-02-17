@@ -51,7 +51,7 @@ $stmt->close();
 						<td><?=$_SESSION['name']?></td>
 					</tr>
 					<tr>
-						<td class="hoverShow1">Password:</td>
+						<td>Password:</td>
 						<td><?=$password?></td>
 					</tr>
 					<tr>
@@ -61,6 +61,7 @@ $stmt->close();
 				</table>
 				<p>Return to home</p><a href="/"><i class="fas fa-home"></i></a>
 			</div>
+			<div class="hoverShow1"><?=$password?></div>
 			<style>
 				.hoverShow1 {
 				display: none; 
