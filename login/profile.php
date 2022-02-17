@@ -41,7 +41,7 @@ $stmt->close();
 				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 			</div>
 		</nav>
-		<div type="password" class="content">
+		<div class="content">
 			<h2>Profile Page</h2>
 			<div>
 				<p>Your account details are below:</p>
