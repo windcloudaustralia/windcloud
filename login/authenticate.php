@@ -44,7 +44,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
         } else {
             // Incorrect password
             // echo 'hi <script> alert("Incorrect password and/or username!");<script>';
-            echo '<script type="text/JavaScript">alert("Incorrect username/password. Try again"); window.location.href = "index.php";</script>' ;
+            echo '<script type="text/JavaScript">alert("Incorrect username/password. Try again"); window.location.href = "/login";</script>' ;
             
 ;
         }
