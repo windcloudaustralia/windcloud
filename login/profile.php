@@ -60,8 +60,7 @@ $stmt->close();
 					</tr>
 				</table>
 				<p>Return to home</p><a href="/"><i class="fas fa-home"></i></a>
-			</div>
-			<p class="hoverShow1"><?=$password?></p>
+				<p class="hoverShow1"><?=$password?></p>
 			<style>
 				.hoverShow1 {
 				display: none; 
@@ -71,6 +70,8 @@ $stmt->close();
 				display: block; 
 				}
 			</style>
+			</div>
+			
 			
 		</div>
 	</body>
