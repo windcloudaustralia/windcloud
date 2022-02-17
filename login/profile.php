@@ -51,7 +51,7 @@ $stmt->close();
 						<td><?=$_SESSION['name']?></td>
 					</tr>
 					<tr>
-					<div class="id">
+					<div class="passwordofUSR">
 						<td>Password:</td>
 						<td><?=$password?></td>
 					</tr>
