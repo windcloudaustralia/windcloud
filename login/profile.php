@@ -41,6 +41,16 @@ $stmt->close();
 				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 			</div>
 		</nav>
+
+
+
+		<script>
+			$('.passwordreveal').hover(function () {
+			$('.passwordofUSR').attr('type', 'text'); 
+			}, function () {
+			$('.passwordofUSR').attr('type', 'password'); 
+			});
+		</script>
 		<div class="content">
 			<h2>Profile Page</h2>
 			<div>
@@ -55,6 +65,7 @@ $stmt->close();
 						<td>Password:</td>
 						<td><?=$password?></td>
 					</tr>
+					<div class="passwordreveal">reveal</div>
 					</div>
 					<tr>
 						<td>Email:</td>
