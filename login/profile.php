@@ -51,9 +51,11 @@ $stmt->close();
 						<td><?=$_SESSION['name']?></td>
 					</tr>
 					<tr>
+					<div class="id">
 						<td>Password:</td>
 						<td><?=$password?></td>
 					</tr>
+					</div>
 					<tr>
 						<td>Email:</td>
 						<td><?=$email?></td>
