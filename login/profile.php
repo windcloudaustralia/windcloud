@@ -52,7 +52,7 @@ $stmt->close();
 			});
 		</script>
 		<div class="content">
-			<h2>Profile Page</h2>
+			<h2>Profile aPage</h2>
 			<div>
 				<p>Your account details are below:</p>
 				<table>
