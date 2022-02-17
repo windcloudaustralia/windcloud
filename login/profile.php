@@ -66,9 +66,10 @@ $stmt->close();
 				</table>
 
 				<div class="passwordofUSR">
-						<td>Password:</td>
-						<td><?=$password?></td>
+						<div>Password: /></div>
+						<div><?=$password?> /></div>
 						<div class="passwordreveal">reveal</div>
+				</div>
 						
 				<script>
 					function mouseoverPass(obj) {
