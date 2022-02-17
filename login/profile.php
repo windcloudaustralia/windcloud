@@ -65,7 +65,7 @@ $stmt->close();
 					</tr>
 				</table>
 
-				<div class="passwordofUSR">
+				<div id="passwordofUSR" class="passwordofUSR">
 						<div>Password:</div>
 						<div><?=$password?></div>
 						<div class="passwordreveal">reveal</div>
