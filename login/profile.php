@@ -41,12 +41,8 @@ $stmt->close();
 				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 			</div>
 		</nav>
-
-
-
-		
 		<div class="content">
-			<h2>Profile aPage</h2>
+			<h2>Profile Page</h2>
 			<div>
 				<p>Your account details are below:</p>
 				<table>
@@ -55,34 +51,14 @@ $stmt->close();
 						<td><?=$_SESSION['name']?></td>
 					</tr>
 					<tr>
-					
+						<td>Password:</td>
+						<td><?=$password?></td>
 					</tr>
-					
-					</div>
 					<tr>
 						<td>Email:</td>
 						<td><?=$email?></td>
 					</tr>
 				</table>
-
-				<div id="passwordofUSR" class="passwordofUSR">
-						<div>Password:</div>
-						<div><?=$password?></div>
-						<div class="passwordreveal">reveal</div>
-				</div>
-						
-				<script>
-					function mouseoverPass(obj) {
-					var obj = document.getElementById('passwordofUSR');
-					obj.type = "text";
-					}
-					function mouseoutPass(obj) {
-					var obj = document.getElementById('passwordofUSR');
-					obj.type = "password";
-}
-				</script>
-
-
 				<p>Return to home</p><a href="/"><i class="fas fa-home"></i></a>
 			</div>
 
