@@ -43,7 +43,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
             header('Location: home.php');
         } else {
             // Incorrect password
-            echo '<Incorrect username and/or password!';
+            echo '<Incorrect usjjjjjername and/or password!';
             echo '<a href="/login/">Try again</a>';
         }
     } else {
