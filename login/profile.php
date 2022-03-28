@@ -6,10 +6,6 @@ if (!isset($_SESSION['loggedin'])) {
 	header('Location: index.html');
 	exit;
 }
-
- 
-echo 'User IP Address : '. $_SERVER['REMOTE_ADDR'];
- 
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'u210039736_root';
 $DATABASE_PASS = 'WindAus21!';
