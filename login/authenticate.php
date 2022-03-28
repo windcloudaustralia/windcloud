@@ -1,8 +1,6 @@
 <?php
 session_start();
 // Change this to your connection info.
-
-
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'xxxxxxxx_root';
 $DATABASE_PASS = 'xxxxxxxx';
