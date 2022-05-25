@@ -17,6 +17,6 @@ If you wish to purchase, contact us [here](https://windcloud.com.au/purchase/), 
 **Legal**: 
 
 > Terms and conditions: [here](https://windcloud.com.au/terms/) <br>
-> Privacy agreement and decleration: [here](https://windcloud.com.au/privacy)
+> Privacy agreement and declaration: [here](https://windcloud.com.au/privacy)
 
 ![Logo](imgs/banner.png)
