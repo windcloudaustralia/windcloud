@@ -1,4 +1,4 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/windcloudaustralia/windcloud?color=blue&style=flat-square) ![GitHub language count](https://img.shields.io/github/languages/count/windcloudaustralia/windcloud?style=flat-square) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&label=website%20staus&style=flat-square&up_color=green&up_message=online&url=https%3A%2F%2Fwindcloud.connm.au) 
+![GitHub repo size](https://img.shields.io/github/repo-size/windcloudaustralia/windcloud?color=blue&style=flat-square) ![GitHub language count](https://img.shields.io/github/languages/count/windcloudaustralia/windcloud?style=flat-square) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&label=website%20staus&style=flat-square&up_color=green&up_message=online&url=https%3A%2F%2Fwindcloud.com.au) 
 # Wind Cloud Australia
 Welcome to the official GitHub repo owned and operated by Wind Cloud Australia. We aim to provide hyper-local, accurate and real-time weather information, using our ever-expanding network of sensors.
 
