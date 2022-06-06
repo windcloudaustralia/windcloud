@@ -62,7 +62,8 @@ $stmt->close();
 					<td><?= $email ?></td>
 				</tr>
 			</table>
-			<p>Return to home</p><a href="/"><i class="fas fa-home"></i></a>
+			<p>Return to home</p><a href="/">
+				<div class="homeIcon"><i class="fas fa-home"></i></a></div>
 		</div>
 	</div>
 
