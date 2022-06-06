@@ -59,4 +59,5 @@ if (!isset($_SESSION['loggedin'])) {
 	</div>
 </body>
 
+<script type="text/javascript" src="indexHTML.js"></script>
 </html>
