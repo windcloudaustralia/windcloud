@@ -1,10 +1,12 @@
 <?php
-session_start();
-// Change this to your connection info.
+session_start(); 
+
+// server side PHP creds.
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'xxxxxxxx_root';
 $DATABASE_PASS = 'xxxxxxxx';
 $DATABASE_NAME = 'xxxxxxxx_phplogin';
+
 // Try and connect using the info above.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if ( mysqli_connect_errno() ) {
