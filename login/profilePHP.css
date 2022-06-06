@@ -166,6 +166,11 @@ body.loggedin {
     height: 100px;
 }
 
+.homeIcon {
+    width: 100px;
+    height: 100px;
+}
+
 .content>p table td:first-child,
 .content>div table td:first-child {
     font-weight: bold;
