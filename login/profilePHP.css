@@ -161,6 +161,11 @@ body.loggedin {
     padding: 5px;
 }
 
+.fas fa-home {
+    width: 100px; 
+    height 100px;
+}
+
 .content>p table td:first-child,
 .content>div table td:first-child {
     font-weight: bold;
