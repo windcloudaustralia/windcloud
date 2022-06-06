@@ -15,10 +15,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 <head>
 	<meta charset="utf-8">
-
     <link rel="stylesheet" href="homePHP.css">
-
-
 	<title>Profile Page - WindCloud</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
@@ -46,13 +43,7 @@ if (!isset($_SESSION['loggedin'])) {
 	<meta property="twitter:image" content="https://windcloud.com.au/imgs/banner.png">
 </head>
 
-
-
-<style>
-	
-</style>
-
-
+<!-- Style is located in "homePHP.css" in this folder/directory -->
 
 <body class="loggedin">
 	<nav class="navtop">
@@ -64,7 +55,7 @@ if (!isset($_SESSION['loggedin'])) {
 	</nav>
 	<div class="content">
 		<h2>Home Page</h2>
-		<p>Welcome back, <?= $_SESSION['name'] ?>!</p>
+		<p>Welcome back, <?= $_SESSION['name'] ?>!</p> <!-- Some inline PHP to update PHP variables with HTML -->
 	</div>
 </body>
 
