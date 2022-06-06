@@ -32,7 +32,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
     if ($stmt->num_rows > 0) {
         $stmt->bind_result($id, $password);
         $stmt->fetch();
-        // Account exists, now we verify the password.
+        // Account exists therefore we can now we verify the password:
         // Note: remember to use password_hash in your registration file to store the hashed passwords:
         if ($_POST['password'] === $password) {
 
