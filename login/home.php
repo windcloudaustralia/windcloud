@@ -22,7 +22,7 @@ if (!isset($_SESSION['loggedin'])) {
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="Local weather, weather, sydney, Sydney, Australia, WindCloud, Wind Cloud">
+	<meta name="keywords" content="Local weather, hyper-local, local, weather, sydney, Sydney, Australia, WindCloud, Wind Cloud">
 	<meta name="author" content="Wind Cloud">
 	<link rel="shortcut icon" type="image/ico" href="/imgs/favicon.ico" />
 	<!-- Primary Meta Tags -->
