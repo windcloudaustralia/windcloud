@@ -31,7 +31,7 @@ $stmt->close();
 <head>
 	<meta charset="utf-8">
 	<title>Wind Cloud - Profile Page</title>
-	<link href="homePHP.css" rel="stylesheet" type="text/css">
+	<link href="profilePHP.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 </head>
 
