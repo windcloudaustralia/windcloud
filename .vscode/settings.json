@@ -1,3 +1,6 @@
 {
-    "liveServer.settings.port": 5555
+    "liveServer.settings.port": 5555,
+    "cSpell.words": [
+        "loggedin"
+    ]
 }
