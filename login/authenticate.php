@@ -52,7 +52,8 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
     } else {
         // Incorrect username:
         echo '<script type="text/JavaScript">alert("Incorrect username and/or password. Try again!"); window.location.href = "/login";</script>' ; // incorrect username alert box 
-    }
+    }  
+    // the reason we used two different statements, which end up clarifying the same thing is to ensure that the interpreter within the browser does not get confused. 
 
 
 	$stmt->close();
