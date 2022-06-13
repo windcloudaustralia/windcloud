@@ -30,7 +30,7 @@ i {
 .login {
     width: 400px;
     background-color: rgb(32, 30, 30);
-    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 9px 0 rgba(251, 250, 250, 0.3);
     margin: 100px auto;
     border-radius: 15px;
 }
