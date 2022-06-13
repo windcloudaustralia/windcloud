@@ -14,7 +14,12 @@
 @media only screen and (max-width: 600px) {
     .nav{
         display: none;
-        
+    }
+    .ul{
+        display: none;
+    }
+    ul{ 
+        display: none;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
