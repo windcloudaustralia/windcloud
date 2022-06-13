@@ -8,10 +8,6 @@
     scroll-snap-align: center;
 }
 
-
-
-
-
 /* BREAKPOINTS: BEGIN */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -145,9 +141,6 @@ a {
     font-size: xx-small;
 }
 
-
-
-
 body::-webkit-scrollbar {
     width: var(--scrollbar-width, 12px);
     height: var(--scrollbar-height, 20px);
@@ -181,9 +174,6 @@ body::-webkit-scrollbar-button:vertical:start:increment,
 #preview::-webkit-scrollbar-button:horizontal:end:decrement {
     display: var(--show-double-buttons, none);
 }
-
-
-
 
 .footer-dark {
     padding: 50px 0;
@@ -275,7 +265,6 @@ body::-webkit-scrollbar-button:vertical:start:increment,
     margin-bottom: 0;
 }
 
-
 hr.solid {
     border-top: 4px solid rgb(134, 138, 141);
     border-radius: 5px;
@@ -298,4 +287,3 @@ hr.solid {
     margin-left: center;
     text-align: center;
 }
- 
