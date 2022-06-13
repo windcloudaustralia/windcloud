@@ -11,17 +11,19 @@
 
 
 /* Testing the ipad parralax issues */
- /* This is needed to target iPads in landscape and portrait mode when using PARALLAX BG images  (other non-parallax BG images are fine...) .. parallax on iPhones works without this (it doesn't do parallax effect but it shows the same image as a still, and at the correct scale... , but not iPads .. with iPads, what happens without this code is an ugly extreme zoom in.. this is the only thing that seems to work ... no customisation needed for the individual sections.. just this code in the global CSS..*/
+/* This is needed to target iPads in landscape and portrait mode when using PARALLAX BG images  (other non-parallax BG images are fine...) .. parallax on iPhones works without this (it doesn't do parallax effect but it shows the same image as a still, and at the correct scale... , but not iPads .. with iPads, what happens without this code is an ugly extreme zoom in.. this is the only thing that seems to work ... no customisation needed for the individual sections.. just this code in the global CSS..*/
 
- @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
-    .x-section.bg-image.parallax, .x-section.bg-pattern.parallax {
-   background-attachment:scroll !important;
-      background-size: cover;
-      height: 100%;
-      overflow: hidden;
-    
-  }
-  }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .x-section.bg-image.parallax,
+    .x-section.bg-pattern.parallax {
+        background-attachment: scroll !important;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+
+    }
+}
 
 
 
@@ -30,32 +32,31 @@
 /* BREAKPOINTS: BEGIN */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .nav{
+    .nav {
         display: none;
     }
-    .ul{
+
+    .ul {
         display: none;
     }
-    ul{ 
+
+    ul {
         display: none;
     }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {}
 
-}
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {}
 
-}
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {}
 
-}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {}
 
-}
 /* BREAKPOINTS: END */
 
 
@@ -191,7 +192,10 @@ body::-webkit-scrollbar-corner {
     border-radius: var(--scrollbar-border-radius, 4px);
 }
 
-body::-webkit-scrollbar-button:vertical:start:increment, #preview::-webkit-scrollbar-button:vertical:end:decrement, #preview::-webkit-scrollbar-button:horizontal:start:increment, #preview::-webkit-scrollbar-button:horizontal:end:decrement {
+body::-webkit-scrollbar-button:vertical:start:increment,
+#preview::-webkit-scrollbar-button:vertical:end:decrement,
+#preview::-webkit-scrollbar-button:horizontal:start:increment,
+#preview::-webkit-scrollbar-button:horizontal:end:decrement {
     display: var(--show-double-buttons, none);
 }
 
