@@ -287,3 +287,19 @@ hr.solid {
     margin-left: center;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+/* ===== Style for smartphone and iPad in portrait & landscape== =  */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1366px)  {  
+.sp-page-builder .page-content #noparallax {
+    background-attachment: unset !important;
+    background-position: center top !important; }
+}
