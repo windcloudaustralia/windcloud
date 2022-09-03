@@ -2,7 +2,7 @@
 session_start(); 
 
 // server side PHP creds.
-$DATABASE_HOST = 'e'; // was:: "" localhost
+$DATABASE_HOST = 'e'; // was:: "" localhost s
 $DATABASE_USER = 'xxxxxxxx_root';
 $DATABASE_PASS = 'xxxxxxxx';
 $DATABASE_NAME = 'xxxxxxxx_phplogin';
