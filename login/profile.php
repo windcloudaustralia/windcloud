@@ -93,10 +93,7 @@ $stmt->close();
 	</div>
 	</div>
 
-<a href="https://windcloudaustralia.statuspage.io">
-<img src="https://img.shields.io/website?down_color=red&down_message=offline&label=website%20staus%20(main)&style=flat-square&up_color=green&up_message=online&url=https%3A%2F%2Fwindcloud.com.au" href="windcloud.com.au"/>
-</a>
-
+</body>
 <script type="text/javascript" src="indexHTML.js"></script>
 
 </html>
