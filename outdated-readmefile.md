@@ -11,7 +11,7 @@ Have a look at one of our locations here: [Pittwater NSW](https://windcloud.com.
 
 If you have any issues, or feedback contact us via [email](mailto:hello@windcloud.com.au)
 
-Should you wish to request a new location please contact us via this [email](mailto:james@windcloud.com.au)
+Should you wish to request a new location please contact us via this [email]c(mailto:james@windcloud.com.au)
 
 If you wish to purchase, contact us [here](https://windcloud.com.au/purchase/), and we will get back to you as soon as possible!
 
