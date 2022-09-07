@@ -15,7 +15,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 <head>
 	<meta charset="utf-8">
-    <link rel="stylesheet" href="homePHP.css">
+	<link rel="stylesheet" href="homePHP.css">
 	<title>Profile Page - WindCloud</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
@@ -60,4 +60,5 @@ if (!isset($_SESSION['loggedin'])) {
 </body>
 
 <script type="text/javascript" src="indexHTML.js"></script>
+
 </html>
