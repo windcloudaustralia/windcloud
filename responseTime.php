@@ -1,5 +1,5 @@
 <?php
-  $API_KEY = 'your-api-key-goes-here';
+  $API_KEY = '225980cf-7444-446d-83a0-8af1f465bc12';
   $PAGE_ID = 'lvfvnbdyvr13';
   $METRIC_ID = 'vx3560qcqdt1';
   $BASE_URI = 'https://api.statuspage.io/v1';
