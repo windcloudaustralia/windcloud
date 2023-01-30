@@ -46,8 +46,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
         } else {
             // Incorrect password:
             echo '<script type="text/JavaScript">alert("Incorrect username and/or password. Try again!"); window.location.href = "/login";</script>' ; // incorrect password alert box 
-            
-;
+
         }
     } else {
         // Incorrect username:
@@ -58,4 +57,3 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
 
 	$stmt->close();
 }
-?>
