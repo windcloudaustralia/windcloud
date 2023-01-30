@@ -1,11 +1,11 @@
 <?php
 session_start(); 
 
-// server side PHP creds.
+// server side PHP credentials.
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'u210039736_root';
 $DATABASE_PASS = 'WindAus21!';
-$DATABASE_NAME = 'u210039736_phplogin';
+$DATABASE_NAME = 'u210039736_phplogin'; // ignore creds spelling
 
 // Try and connect using the info above.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
@@ -22,10 +22,10 @@ if ( !isset($_POST['username'], $_POST['password']) ) {
 
 // Prepare our SQL, preparing the SQL statement will prevent SQL injection:
 if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
-	// Bind parameters (s = string, i = int, b = blob, etc), in our case the username is a string so we use "s":
+	// Bind parameters (s = string, i = int, b = blob, etc), in our case the username is a string, so we use "s":
 	$stmt->bind_param('s', $_POST['username']);
 	$stmt->execute();
-	// Store the result so we can check if the account exists in the database:
+	// Store the result, so we can check if the account exists in the database:
 	$stmt->store_result();
 
 
